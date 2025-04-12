@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пицца у Кошмика</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#">Пицца у Кошмика</a>
+                </div>
+                <div class="burger-menu">
+                    <div class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#menu">Меню</a></li>
+                        <li><a href="#popular">Популярное</a></li>
+                        <li><a href="#events">Акции</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="main" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                    <h1>Самая быстрая доставка пиццы в городе</h1>
+                    <p>Мы доставим вашу пиццу за 30 минут или меньше. В противном случае - пицца бесплатно!</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn primary-btn">Заказать</a>
+                        <a href="#menu" class="btn secondary-btn">Смотреть меню</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/hero-pizza.jpg" alt="Вкусная пицца">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Наше меню</h2>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">Все</button>
+                <button class="category-btn" data-category="meat">Мясные</button>
+                <button class="category-btn" data-category="veg">Вегетарианские</button>
+                <button class="category-btn" data-category="seafood">Морепродукты</button>
+                <button class="category-btn" data-category="mushroom">Грибные</button>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item" data-aos="fade-up" data-category="meat">
+                    <div class="menu-item-image">
+                        <img src="images/pizza1.jpg" alt="Пепперони">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Пепперони</h3>
+                        <p>Томатный соус, сыр моцарелла, пепперони</p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">399 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" data-aos="fade-up" data-aos-delay="100" data-category="meat">
+                    <div class="menu-item-image">
+                        <img src="images/Pizza%20%20(1).jpeg" alt="Мясная">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Мясная</h3>
+                        <p>Томатный соус, сыр моцарелла, бекон, ветчина, курица, говядина</p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">529 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" data-aos="fade-up" data-aos-delay="200" data-category="veg">
+                    <div class="menu-item-image">
+                        <img src="images/pizza3.jpg" alt="Маргарита">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Маргарита</h3>
+                        <p>Томатный соус, сыр моцарелла, помидоры, базилик</p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">349 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" data-aos="fade-up" data-aos-delay="300" data-category="seafood">
+                    <div class="menu-item-image">
+                        <img src="images/pizza4.jpg" alt="Морская">
+                    </div>
+                    <div class="menu-item-info">
+                        <h3>Морская</h3>
+                        <p>Томатный соус, сыр моцарелла, креветки, мидии, кальмары, лимон</p>
+                        <div class="menu-item-footer">
+                            <div class="menu-item-price">599 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular" class="popular-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Самые популярные пиццы</h2>
+            <div class="popular-items">
+                <div class="popular-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="popular-item-image">
+                        <img src="images/popular1.jpg" alt="Четыре сыра">
+                    </div>
+                    <div class="popular-item-info">
+                        <h3>Четыре сыра</h3>
+                        <p>Томатный соус, моцарелла, пармезан, дор блю, чеддер</p>
+                        <div class="popular-item-footer">
+                            <div class="popular-item-price">499 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="popular-item-image">
+                        <img src="images/popular2.jpg" alt="Гавайская">
+                    </div>
+                    <div class="popular-item-info">
+                        <h3>Гавайская</h3>
+                        <p>Томатный соус, сыр моцарелла, ветчина, ананасы</p>
+                        <div class="popular-item-footer">
+                            <div class="popular-item-price">449 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="popular-item-image">
+                        <img src="images/popular3.jpg" alt="Барбекю">
+                    </div>
+                    <div class="popular-item-info">
+                        <h3>Барбекю</h3>
+                        <p>Соус барбекю, сыр моцарелла, курица, бекон, красный лук</p>
+                        <div class="popular-item-footer">
+                            <div class="popular-item-price">479 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="popular-item-image">
+                        <img src="images/popular4.jpg" alt="Карбонара">
+                    </div>
+                    <div class="popular-item-info">
+                        <h3>Карбонара</h3>
+                        <p>Сливочный соус, сыр моцарелла, бекон, яйцо, пармезан</p>
+                        <div class="popular-item-footer">
+                            <div class="popular-item-price">499 ₽</div>
+                            <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Акции и события</h2>
+            <div class="events-grid">
+                <div class="event-card" data-aos="flip-left">
+                    <div class="event-image">
+                        <img src="images/Lunch%20combo.%20.jpeg" alt="Комбо-обед">
+                    </div>
+                    <div class="event-info">
+                        <h3>Комбо-обед</h3>
+                        <p>Пицца + напиток + картофель фри всего за 599 ₽</p>
+                        <a href="#" class="btn primary-btn">Заказать</a>
+                    </div>
+                </div>
+                <div class="event-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="event-image">
+                        <img src="images/event2.jpg" alt="Счастливые часы">
+                    </div>
+                    <div class="event-info">
+                        <h3>Счастливые часы</h3>
+                        <p>Скидка 20% на все пиццы с 14:00 до 17:00</p>
+                        <a href="#" class="btn primary-btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="event-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="event-image">
+                        <img src="images/event3.jpg" alt="День рождения">
+                    </div>
+                    <div class="event-info">
+                        <h3>День рождения</h3>
+                        <p>Скидка 30% в ваш день рождения при предъявлении паспорта</p>
+                        <a href="#" class="btn primary-btn">Подробнее</a>
+                    </div>
+                </div>
+                <div class="event-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="event-image">
+                        <img src="images/event4.jpg" alt="Доставка">
+                    </div>
+                    <div class="event-info">
+                        <h3>Бесплатная доставка</h3>
+                        <p>При заказе от 1000 ₽ доставка бесплатно</p>
+                        <a href="#" class="btn primary-btn">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="images/about.jpg" alt="О нас">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h2 class="section-title">О нас</h2>
+                    <p>Пиццерия у Кошмика - это семейный бизнес, основанный в 2010 году. Мы готовим настоящую итальянскую пиццу по традиционным рецептам, используя только свежие и качественные ингредиенты.</p>
+                    <p>Наша миссия - радовать вас вкусной пиццей каждый день! Мы постоянно совершенствуем наши рецепты и качество обслуживания.</p>
+                    <p>Приходите к нам или заказывайте доставку - и вы не пожалеете о своем выборе!</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-text">лет опыта</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-text">видов пиццы</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5000+</div>
+                            <div class="stat-text">довольных клиентов</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Контакты</h2>
+            <div class="contacts-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p>г. Москва, ул. Пиццерийная, д. 42</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Время работы</h3>
+                            <p>Пн-Вс: 10:00 - 22:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@pizzakoshmika.ru</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <h3>Оставьте сообщение</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Ваш телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Пицца у Кошмика</a>
+                    <p>Самая вкусная пицца в городе</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Меню</h3>
+                        <ul>
+                            <li><a href="#menu">Пиццы</a></li>
+                            <li><a href="#menu">Напитки</a></li>
+                            <li><a href="#menu">Десерты</a></li>
+                            <li><a href="#menu">Закуски</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Информация</h3>
+                        <ul>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#events">Акции</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Контакты</h3>
+                        <ul>
+                            <li><a href="#contacts">Адрес</a></li>
+                            <li><a href="#contacts">Телефон</a></li>
+                            <li><a href="#contacts">Email</a></li>
+                            <li><a href="#contacts">Обратная связь</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Пицца у Кошмика. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
